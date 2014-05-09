@@ -1,0 +1,25 @@
+{
+	"name": "box/boxphpsdk",
+	"description": "PHP SDK for Box",
+	"version": "1.0",
+	"license": "Apache-2.0",
+	"minimum-stability": "stable",
+	"keywords": ["sdk", "box", "file manager"],
+	"homepage": "http://www.box.com",
+	"authors": [
+		{
+			"name": "Ernesto Amorim",
+			"email": "ernesto.amorim@gmail.com"
+		},
+		{
+			"name": "João Paulo Rabelo",
+			"email": "joaoprabelo@gmail.com"
+		}
+	],
+
+	"autoload": {
+		"psr-0": {
+			"Box\\BoxPHPSDK": "lib/"
+		}
+	}
+}
